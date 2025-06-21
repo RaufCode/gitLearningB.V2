@@ -3,10 +3,12 @@ const info = {
     age: 34,
     sex: "Male",
     sch: "AAMUSTED"
-}
+};
 
 let userInfo = () => {
-    console.log(info)
-}
+    console.log(info);
+};
 
-userInfo()
+userInfo();
+info.email = "saeed@example.com";
+console.log("Updated info:", info);
