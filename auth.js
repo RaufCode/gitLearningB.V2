@@ -1,9 +1,9 @@
 const jwt = require('jsonwebtoken');
 
-/**
- * auth.js
- * Basic authentication utilities
- */
+// /**
+//  * auth.js
+//  * Basic authentication utilities
+//  */
 
 
 const SECRET_KEY = process.env.JWT_SECRET || 'your-secret-key';
